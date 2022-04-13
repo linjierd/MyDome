@@ -1,0 +1,11 @@
+﻿{
+  "profiles": {
+    "聚合数据": {
+      "commandName": "Project",
+      "dotnetRunMessages": "true",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

@@ -1,0 +1,106 @@
+2022-03-18 18:48:14.582 +08:00 [INF] Starting Worker of Windows Services
+2022-03-18 18:48:16.359 +08:00 [INF] Worker service starting at:"2022-03-18T18:48:16.3436351+08:00",Intermittent time:1 second
+2022-03-18 18:48:16.371 +08:00 [INF] Worker running at: "2022-03-18T18:48:16.3714273+08:00"
+2022-03-18 18:50:09.201 +08:00 [INF] Starting Worker of Windows Services
+2022-03-18 18:50:09.690 +08:00 [INF] Worker service starting at:"2022-03-18T18:50:09.6797889+08:00",Intermittent time:1 second
+2022-03-18 18:50:09.702 +08:00 [INF] Worker running at: "2022-03-18T18:50:09.7019200+08:00"
+2022-03-18 18:58:53.081 +08:00 [INF] Starting Worker of Windows Services
+2022-03-18 18:58:53.607 +08:00 [INF] Worker service starting at:"2022-03-18T18:58:53.5920070+08:00",Intermittent time:1 second
+2022-03-18 18:58:53.621 +08:00 [INF] Worker running at: "2022-03-18T18:58:53.6214357+08:00"
+2022-03-18 19:00:15.896 +08:00 [INF] Starting Worker of Windows Services
+2022-03-18 19:00:16.499 +08:00 [INF] Worker service starting at:"2022-03-18T19:00:16.4798041+08:00",Intermittent time:1 second
+2022-03-18 19:00:16.517 +08:00 [INF] Worker running at: "2022-03-18T19:00:16.5172385+08:00"
+2022-03-18 19:00:30.677 +08:00 [FTL] Worker terminated unexpectedly:One or more errors occurred. (不知道这样的主机。 (apis.juhe.cnsimpleweather:80))
+System.AggregateException: One or more errors occurred. (不知道这样的主机。 (apis.juhe.cnsimpleweather:80))
+ ---> System.Net.Http.HttpRequestException: 不知道这样的主机。 (apis.juhe.cnsimpleweather:80)
+ ---> System.Net.Sockets.SocketException (11001): 不知道这样的主机。
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|283_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.DefaultConnectAsync(SocketsHttpConnectionContext context, CancellationToken cancellationToken)
+   at System.Net.Http.ConnectHelper.ConnectAsync(Func`3 callback, DnsEndPoint endPoint, HttpRequestMessage requestMessage, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(Func`3 callback, DnsEndPoint endPoint, HttpRequestMessage requestMessage, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.SendAsyncCore(HttpRequestMessage request, HttpCompletionOption completionOption, Boolean async, Boolean emitTelemetryStartStop, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   at System.Threading.Tasks.Task.Wait()
+   at 聚合数据.Common.HttpClientSample.Client(String verbs, String uri, Object obj) in E:\trunk\MyCode\VS2019Dome\聚合数据\Common\HttpClientSample.cs:line 29
+   at 聚合数据.Server.GetWeather.RequestWeather() in E:\trunk\MyCode\VS2019Dome\聚合数据\Server\GetWeather.cs:line 35
+   at 聚合数据.Worker.ExecuteAsync(CancellationToken stoppingToken) in E:\trunk\MyCode\VS2019Dome\聚合数据\Worker.cs:line 42
+   at 聚合数据.Worker.StartAsync(CancellationToken cancellationToken) in E:\trunk\MyCode\VS2019Dome\聚合数据\Worker.cs:line 59
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.Run(IHost host)
+   at 聚合数据.Program.Main(String[] args) in E:\trunk\MyCode\VS2019Dome\聚合数据\Program.cs:line 28
+2022-03-18 19:00:30.749 +08:00 [INF] Ending Worker of Windows Services
+2022-03-18 19:00:34.383 +08:00 [INF] Starting Worker of Windows Services
+2022-03-18 19:00:34.910 +08:00 [INF] Worker service starting at:"2022-03-18T19:00:34.8937087+08:00",Intermittent time:1 second
+2022-03-18 19:00:34.922 +08:00 [INF] Worker running at: "2022-03-18T19:00:34.9222921+08:00"
+2022-03-18 19:00:55.768 +08:00 [FTL] Worker terminated unexpectedly:One or more errors occurred. (不知道这样的主机。 (apis.juhe.cnsimpleweather:80))
+System.AggregateException: One or more errors occurred. (不知道这样的主机。 (apis.juhe.cnsimpleweather:80))
+ ---> System.Net.Http.HttpRequestException: 不知道这样的主机。 (apis.juhe.cnsimpleweather:80)
+ ---> System.Net.Sockets.SocketException (11001): 不知道这样的主机。
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|283_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.DefaultConnectAsync(SocketsHttpConnectionContext context, CancellationToken cancellationToken)
+   at System.Net.Http.ConnectHelper.ConnectAsync(Func`3 callback, DnsEndPoint endPoint, HttpRequestMessage requestMessage, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(Func`3 callback, DnsEndPoint endPoint, HttpRequestMessage requestMessage, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.SendAsyncCore(HttpRequestMessage request, HttpCompletionOption completionOption, Boolean async, Boolean emitTelemetryStartStop, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   at System.Threading.Tasks.Task.Wait()
+   at 聚合数据.Common.HttpClientSample.Client(String verbs, String uri, Object obj) in E:\trunk\MyCode\VS2019Dome\聚合数据\Common\HttpClientSample.cs:line 29
+   at 聚合数据.Server.GetWeather.RequestWeather() in E:\trunk\MyCode\VS2019Dome\聚合数据\Server\GetWeather.cs:line 35
+   at 聚合数据.Worker.ExecuteAsync(CancellationToken stoppingToken) in E:\trunk\MyCode\VS2019Dome\聚合数据\Worker.cs:line 42
+   at 聚合数据.Worker.StartAsync(CancellationToken cancellationToken) in E:\trunk\MyCode\VS2019Dome\聚合数据\Worker.cs:line 59
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.Run(IHost host)
+   at 聚合数据.Program.Main(String[] args) in E:\trunk\MyCode\VS2019Dome\聚合数据\Program.cs:line 28
+2022-03-18 19:00:55.804 +08:00 [INF] Ending Worker of Windows Services
+2022-03-18 19:00:58.970 +08:00 [INF] Starting Worker of Windows Services
+2022-03-18 19:00:59.470 +08:00 [INF] Worker service starting at:"2022-03-18T19:00:59.4564423+08:00",Intermittent time:1 second
+2022-03-18 19:00:59.478 +08:00 [INF] Worker running at: "2022-03-18T19:00:59.4785466+08:00"
+2022-03-18 19:02:27.106 +08:00 [INF] Starting Worker of Windows Services
+2022-03-18 19:02:27.721 +08:00 [INF] Worker service starting at:"2022-03-18T19:02:27.7011007+08:00",Intermittent time:1 second
+2022-03-18 19:02:27.733 +08:00 [INF] Worker running at: "2022-03-18T19:02:27.7336931+08:00"
+2022-03-18 19:03:39.320 +08:00 [INF] Starting Worker of Windows Services
+2022-03-18 19:03:39.935 +08:00 [INF] Worker service starting at:"2022-03-18T19:03:39.9153163+08:00",Intermittent time:1 second
+2022-03-18 19:03:39.946 +08:00 [INF] Worker running at: "2022-03-18T19:03:39.9461220+08:00"
+2022-03-18 19:06:03.409 +08:00 [INF] Starting Worker of Windows Services
+2022-03-18 19:06:04.036 +08:00 [INF] Worker service starting at:"2022-03-18T19:06:04.0192085+08:00",Intermittent time:1 second
+2022-03-18 19:06:04.052 +08:00 [INF] Worker running at: "2022-03-18T19:06:04.0524918+08:00"
+2022-03-18 19:07:13.683 +08:00 [FTL] Worker terminated unexpectedly:Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at 聚合数据.Server.GetWeather.RequestWeather() in E:\trunk\MyCode\VS2019Dome\聚合数据\Server\GetWeather.cs:line 56
+   at 聚合数据.Worker.ExecuteAsync(CancellationToken stoppingToken) in E:\trunk\MyCode\VS2019Dome\聚合数据\Worker.cs:line 42
+   at 聚合数据.Worker.StartAsync(CancellationToken cancellationToken) in E:\trunk\MyCode\VS2019Dome\聚合数据\Worker.cs:line 59
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.Run(IHost host)
+   at 聚合数据.Program.Main(String[] args) in E:\trunk\MyCode\VS2019Dome\聚合数据\Program.cs:line 28
+2022-03-18 19:07:13.749 +08:00 [INF] Ending Worker of Windows Services
+2022-03-18 19:07:20.884 +08:00 [INF] Starting Worker of Windows Services
+2022-03-18 19:07:21.406 +08:00 [INF] Worker service starting at:"2022-03-18T19:07:21.3918294+08:00",Intermittent time:1 second
+2022-03-18 19:07:21.431 +08:00 [INF] Worker running at: "2022-03-18T19:07:21.4315759+08:00"
+2022-03-18 19:08:53.853 +08:00 [INF] Starting Worker of Windows Services
+2022-03-18 19:08:54.311 +08:00 [INF] Worker service starting at:"2022-03-18T19:08:54.2982015+08:00",Intermittent time:1 second
+2022-03-18 19:08:54.322 +08:00 [INF] Worker running at: "2022-03-18T19:08:54.3221785+08:00"
+2022-03-18 19:09:04.292 +08:00 [INF] Success

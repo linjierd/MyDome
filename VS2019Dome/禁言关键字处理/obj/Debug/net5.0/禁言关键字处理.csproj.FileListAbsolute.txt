@@ -1,0 +1,16 @@
+E:\trunk\MyCode\VS2019Dome\禁言关键字处理\bin\Debug\net5.0\禁言关键字处理.exe
+E:\trunk\MyCode\VS2019Dome\禁言关键字处理\bin\Debug\net5.0\禁言关键字处理.deps.json
+E:\trunk\MyCode\VS2019Dome\禁言关键字处理\bin\Debug\net5.0\禁言关键字处理.runtimeconfig.json
+E:\trunk\MyCode\VS2019Dome\禁言关键字处理\bin\Debug\net5.0\禁言关键字处理.runtimeconfig.dev.json
+E:\trunk\MyCode\VS2019Dome\禁言关键字处理\bin\Debug\net5.0\禁言关键字处理.dll
+E:\trunk\MyCode\VS2019Dome\禁言关键字处理\bin\Debug\net5.0\ref\禁言关键字处理.dll
+E:\trunk\MyCode\VS2019Dome\禁言关键字处理\bin\Debug\net5.0\禁言关键字处理.pdb
+E:\trunk\MyCode\VS2019Dome\禁言关键字处理\obj\Debug\net5.0\禁言关键字处理.GeneratedMSBuildEditorConfig.editorconfig
+E:\trunk\MyCode\VS2019Dome\禁言关键字处理\obj\Debug\net5.0\禁言关键字处理.AssemblyInfoInputs.cache
+E:\trunk\MyCode\VS2019Dome\禁言关键字处理\obj\Debug\net5.0\禁言关键字处理.AssemblyInfo.cs
+E:\trunk\MyCode\VS2019Dome\禁言关键字处理\obj\Debug\net5.0\禁言关键字处理.csproj.CoreCompileInputs.cache
+E:\trunk\MyCode\VS2019Dome\禁言关键字处理\obj\Debug\net5.0\禁言关键字处理.dll
+E:\trunk\MyCode\VS2019Dome\禁言关键字处理\obj\Debug\net5.0\ref\禁言关键字处理.dll
+E:\trunk\MyCode\VS2019Dome\禁言关键字处理\obj\Debug\net5.0\禁言关键字处理.pdb
+E:\trunk\MyCode\VS2019Dome\禁言关键字处理\obj\Debug\net5.0\禁言关键字处理.genruntimeconfig.cache
+E:\trunk\MyCode\VS2019Dome\禁言关键字处理\obj\Debug\net5.0\禁言关键字处理.csproj.AssemblyReference.cache

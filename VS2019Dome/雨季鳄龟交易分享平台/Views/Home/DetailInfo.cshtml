@@ -1,0 +1,30 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+@using 雨季鳄龟交易分享平台.Models
+@{
+    YuJi_Sell info = ViewBag.Info;
+}
+
+<input type="button" name="name" value="返回" onclick="javascript: history.back()" />
+
+<div><h4>@info.yj_Title</h4><span style="color:red">￥@info.yj_price</span></div>
+<div>
+    QQ:<i>@info.yj_QQ</i>
+    微信:<i>@info.yj_WeiXin</i>
+</div>
+<div>
+    @info.yj_Desc
+</div>
+
+<div>
+    @foreach (var img in info.imgs)
+    {
+        <img src="@img.yj_ImgSrc" alt="@info.yj_Title" />
+    }
+</div>
+
+<input type="button" name="name" value="返回" onclick="javascript: history.back()" />

@@ -1,0 +1,1 @@
+2022-03-23 11:32:41.083 +08:00 [INF] Starting Worker of Windows Services

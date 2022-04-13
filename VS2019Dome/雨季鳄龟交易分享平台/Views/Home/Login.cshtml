@@ -1,0 +1,31 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<script src="~/lib/jquery/dist/jquery.js"></script>
+<div>
+    <input type="text" id="yj_Pwd" name="yj_Pwd" value="" placeholder="请输入许可码" />
+    <input type="button" id="Login" value="设置本机为Admin" />
+</div>
+
+<script>
+    $(function () {
+        $("#Login").click(function () {
+            var pwd = $("#yj_Pwd").val();
+            if (pwd != null && pwd != "") {
+                $.get("/Home/Sign?pwd=" + pwd, function (res) {
+                    if (res) {
+                        alert("设置成功");
+                        location.href = "/home/index"
+                    } else {
+                        alert("签名认证失败,请检查签名是否正确")
+                    }
+                })
+            } else {
+                alert("请输入许可码");
+            }
+        })
+    })
+
+</script>
