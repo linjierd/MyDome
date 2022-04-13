@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kn3LaAY2rGYnswHQKV7lIz+7ycx/QNBAg6P4z702w9x1bEyedXf9F2jbwB3eAD/RT97JJp1V2+GRcoWEzUmHsw==",
+  "dgSpecHash": "xahr2C2ZBQ9silSCs0Ea0NVrmqQ6O7QQQwBM85Za9QmnE0+JwxkiCfp7dCfXm6RBByc3YyFPG9TpWjgL7cOJZw==",
   "success": true,
-  "projectFilePath": "E:\\trunk\\MyCode\\VS2019Dome\\聚合数据\\聚合数据.csproj",
+  "projectFilePath": "C:\\Users\\linji\\Documents\\GitHub\\desktop-tutorial\\VS2019Dome\\聚合数据\\聚合数据.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\linji\\.nuget\\packages\\microsoft.extensions.configuration\\5.0.0\\microsoft.extensions.configuration.5.0.0.nupkg.sha512",
     "C:\\Users\\linji\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\5.0.0\\microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",

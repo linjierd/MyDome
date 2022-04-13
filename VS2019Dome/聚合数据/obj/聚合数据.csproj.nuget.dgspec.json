@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\trunk\\MyCode\\VS2019Dome\\聚合数据\\聚合数据.csproj": {}
+    "C:\\Users\\linji\\Documents\\GitHub\\desktop-tutorial\\VS2019Dome\\聚合数据\\聚合数据.csproj": {}
   },
   "projects": {
-    "E:\\trunk\\MyCode\\VS2019Dome\\聚合数据\\聚合数据.csproj": {
+    "C:\\Users\\linji\\Documents\\GitHub\\desktop-tutorial\\VS2019Dome\\聚合数据\\聚合数据.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\trunk\\MyCode\\VS2019Dome\\聚合数据\\聚合数据.csproj",
+        "projectUniqueName": "C:\\Users\\linji\\Documents\\GitHub\\desktop-tutorial\\VS2019Dome\\聚合数据\\聚合数据.csproj",
         "projectName": "聚合数据",
-        "projectPath": "E:\\trunk\\MyCode\\VS2019Dome\\聚合数据\\聚合数据.csproj",
+        "projectPath": "C:\\Users\\linji\\Documents\\GitHub\\desktop-tutorial\\VS2019Dome\\聚合数据\\聚合数据.csproj",
         "packagesPath": "C:\\Users\\linji\\.nuget\\packages\\",
-        "outputPath": "E:\\trunk\\MyCode\\VS2019Dome\\聚合数据\\obj\\",
+        "outputPath": "C:\\Users\\linji\\Documents\\GitHub\\desktop-tutorial\\VS2019Dome\\聚合数据\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\trunk\\MyCode\\VS2019Dome\\读取文件转换为实体\\读取文件转换为实体.csproj": {}
+    "C:\\Users\\linji\\Documents\\GitHub\\desktop-tutorial\\VS2019Dome\\读取文件转换为实体\\读取文件转换为实体.csproj": {}
   },
   "projects": {
-    "E:\\trunk\\MyCode\\VS2019Dome\\读取文件转换为实体\\读取文件转换为实体.csproj": {
+    "C:\\Users\\linji\\Documents\\GitHub\\desktop-tutorial\\VS2019Dome\\读取文件转换为实体\\读取文件转换为实体.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\trunk\\MyCode\\VS2019Dome\\读取文件转换为实体\\读取文件转换为实体.csproj",
+        "projectUniqueName": "C:\\Users\\linji\\Documents\\GitHub\\desktop-tutorial\\VS2019Dome\\读取文件转换为实体\\读取文件转换为实体.csproj",
         "projectName": "读取文件转换为实体",
-        "projectPath": "E:\\trunk\\MyCode\\VS2019Dome\\读取文件转换为实体\\读取文件转换为实体.csproj",
+        "projectPath": "C:\\Users\\linji\\Documents\\GitHub\\desktop-tutorial\\VS2019Dome\\读取文件转换为实体\\读取文件转换为实体.csproj",
         "packagesPath": "C:\\Users\\linji\\.nuget\\packages\\",
-        "outputPath": "E:\\trunk\\MyCode\\VS2019Dome\\读取文件转换为实体\\obj\\",
+        "outputPath": "C:\\Users\\linji\\Documents\\GitHub\\desktop-tutorial\\VS2019Dome\\读取文件转换为实体\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

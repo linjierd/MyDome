@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YeZAvjke/iqmecfsX3VKom3aXnWVpsTxyPLK0M8/1yvNyQBZIYA2kQBr8Zt42RxuBAwYc/Z96QXUtYQG0QkTeg==",
+  "dgSpecHash": "pkd5npLhQhAswYdONsXQrsnUMRKYMsDjyuU5PJ5lW7YFkk73EiBCP8++YxVvbKj/YOkOhAFFBjifwtecwCLbXA==",
   "success": true,
-  "projectFilePath": "E:\\trunk\\MyCode\\VS2019Dome\\雨季鳄龟交易分享平台\\雨季鳄龟交易分享平台.csproj",
+  "projectFilePath": "C:\\Users\\linji\\Documents\\GitHub\\desktop-tutorial\\VS2019Dome\\雨季鳄龟交易分享平台\\雨季鳄龟交易分享平台.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\linji\\.nuget\\packages\\bouncycastle.netcore\\1.8.3\\bouncycastle.netcore.1.8.3.nupkg.sha512",
     "C:\\Users\\linji\\.nuget\\packages\\google.protobuf\\3.6.1\\google.protobuf.3.6.1.nupkg.sha512",

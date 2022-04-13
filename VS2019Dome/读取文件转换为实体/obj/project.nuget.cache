@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YjPoCoDkpMZ+fFcYAtP3G3S/ZNT6hABlXPjDLub5nryO4JWjqhl4xvPoaLqQ7f9HMY4Abf9QxY2C7X552P1mgw==",
+  "dgSpecHash": "Pqn+OQAe9VKDskZwm731ZottU1Kxm9k3B+PhCez7iskQfs6/gcnRh6jDZ/KEdCNtc6lGpg7RIruDT/zHRZK2xw==",
   "success": true,
-  "projectFilePath": "E:\\trunk\\MyCode\\VS2019Dome\\读取文件转换为实体\\读取文件转换为实体.csproj",
+  "projectFilePath": "C:\\Users\\linji\\Documents\\GitHub\\desktop-tutorial\\VS2019Dome\\读取文件转换为实体\\读取文件转换为实体.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\linji\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
   ],
