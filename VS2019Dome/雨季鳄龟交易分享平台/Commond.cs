@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace 雨季鳄龟交易分享平台
 {
-    public class Common
+    public class Commond
     {
         /// <summary>
         /// 获取客户端IP地址（无视代理）

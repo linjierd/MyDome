@@ -228,3 +228,5 @@ C:\Users\linji\Documents\GitHub\desktop-tutorial\VS2019Dome\雨季鳄龟交易�
 C:\Users\linji\Documents\GitHub\desktop-tutorial\VS2019Dome\雨季鳄龟交易分享平台\obj\Debug\net5.0\雨季鳄龟交易分享平台.Views.pdb
 C:\Users\linji\Documents\GitHub\desktop-tutorial\VS2019Dome\雨季鳄龟交易分享平台\obj\Debug\net5.0\雨季鳄龟交易分享平台.csproj.CopyComplete
 C:\Users\linji\Documents\GitHub\desktop-tutorial\VS2019Dome\雨季鳄龟交易分享平台\obj\Debug\net5.0\雨季鳄龟交易分享平台.genruntimeconfig.cache
+C:\Users\linji\Documents\GitHub\desktop-tutorial\VS2019Dome\雨季鳄龟交易分享平台\obj\Debug\net5.0\Razor\Views\Rebot\BlakList.cshtml.g.cs
+C:\Users\linji\Documents\GitHub\desktop-tutorial\VS2019Dome\雨季鳄龟交易分享平台\obj\Debug\net5.0\Razor\Views\Rebot\Index.cshtml.g.cs

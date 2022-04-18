@@ -30,7 +30,7 @@ namespace 雨季鳄龟交易分享平台.Controllers
         public IActionResult Login()
         {
             //获取用户IP
-            string ip = Common.GetHostAddress();
+            string ip = Commond.GetHostAddress();
 
             #region (旧代码)聚合数据每天免费50次的次数. 超过就无法访问
 
@@ -67,7 +67,7 @@ namespace 雨季鳄龟交易分享平台.Controllers
             var sign = _db.Db.Queryable<licenses>().Where(m => m.enable == true && m.key == pwd && m.available > m.used).First();
             if (sign!=null)
             {
-                string ip = Common.GetHostAddress();
+                string ip = Commond.GetHostAddress();
                 var user = _db.Db.Queryable<Yuji_User>().Single(m => m.yj_IP == ip);
                 user.yj_UserName = "Admin";
                 user.yj_UserAccount = sign.key;
@@ -82,7 +82,7 @@ namespace 雨季鳄龟交易分享平台.Controllers
         public IActionResult Index()
         {
             //获取用户IP
-            string ip = Common.GetHostAddress();
+            string ip = Commond.GetHostAddress();
 
             #region (旧代码)聚合数据每天免费50次的次数. 超过就无法访问
 
@@ -199,7 +199,7 @@ namespace 雨季鳄龟交易分享平台.Controllers
 
         public IActionResult DeleteInfo(string id)
         {
-            var ip= Common.GetHostAddress();
+            var ip= Commond.GetHostAddress();
 
             var isAdmin = _db.Db.Queryable<Yuji_User>().Single(m => m.yj_IP == ip);
 
@@ -284,7 +284,7 @@ namespace 雨季鳄龟交易分享平台.Controllers
         }
         public IActionResult AddSell(YuJi_Sell model)
         {
-            string ip = Common.GetHostAddress();
+            string ip = Commond.GetHostAddress();
             var user = _db.Db.Queryable<Yuji_User>().Single(m => m.yj_IP == ip);
             model.yj_Uid = user.yj_Id;
 
