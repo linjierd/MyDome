@@ -22,25 +22,41 @@ namespace 雨季鳄龟交易分享平台.Controllers
 
         public IActionResult Index()
         {
-            //获取用户IP
-            string ip = Commond.GetHostAddress();
-
-            #region 国外的IP跳转到错误页面
-
-            HttpClientSample apiSample = new HttpClientSample("http://ip-api.com");
-            var html = apiSample.Client("get", "json/" + ip + "?lang=zh-CN");
-            //Newtonsoft.Json读取数据
-            JObject obj = JsonConvert.DeserializeObject<JObject>(html);
-            string country = obj["country"]?.ToString();
-            if (country != "中国")
-            {
-                return Redirect("/Home/Error");
-            }
-
-            #endregion
             return View();
         }
         public IActionResult BlakList()
+        {
+            try
+            {
+
+                #region 验证管理员身份
+
+                //获取用户IP
+                string ip = Commond.GetHostAddress();
+                DbContext dbMaster = new DbContext();
+                var user = dbMaster.Db.Queryable<Yuji_User>().Single(m => m.yj_IP == ip);
+                bool isAdmin = user.yj_UserName == "Admin";
+                #endregion
+
+                #region 在SqlLite加载数据
+
+
+                SqlConnection SqlConnection = _configuration.GetSection("SqlConnection").Get<SqlConnection>();
+                DbContext db = new DbContext(SqlConnection.BlacklistPlugin, SqlSugar.DbType.Sqlite);
+                var data = db.Db.Queryable<BlackQQ>().ToList();
+                ViewBag.BlackQQ = data;
+                ViewBag.IsAdmin = isAdmin;
+                #endregion
+            }
+            catch (Exception ex)
+            {
+
+            }
+
+            return View();
+        }
+
+        public int DelBlackQQ(int id)
         {
             #region 验证管理员身份
 
@@ -48,34 +64,16 @@ namespace 雨季鳄龟交易分享平台.Controllers
             string ip = Commond.GetHostAddress();
             DbContext dbMaster = new DbContext();
             var user = dbMaster.Db.Queryable<Yuji_User>().Single(m => m.yj_IP == ip);
-            bool isAdmin = user.yj_UserName == "Admin";
-            #endregion
 
-            #region 国外的IP跳转到错误页面
-
-            HttpClientSample apiSample = new HttpClientSample("http://ip-api.com");
-            var html = apiSample.Client("get", "json/" + ip + "?lang=zh-CN");
-            //Newtonsoft.Json读取数据
-            JObject obj = JsonConvert.DeserializeObject<JObject>(html);
-            string country = obj["country"]?.ToString();
-            if (country != "中国")
+            if (user.yj_UserName != "Admin")
             {
-                return Redirect("/Home/Error");
+                return -1;
             }
-
             #endregion
-
-            #region 在SqlLite加载数据
-
 
             SqlConnection SqlConnection = _configuration.GetSection("SqlConnection").Get<SqlConnection>();
             DbContext db = new DbContext(SqlConnection.BlacklistPlugin, SqlSugar.DbType.Sqlite);
-            var data= db.Db.Queryable<BlackQQ>().ToList();
-            ViewBag.BlackQQ= data;
-            ViewBag.IsAdmin = isAdmin;
-            #endregion
-
-            return View();
+            return db.Db.Deleteable<BlackQQ>().In(id).ExecuteCommand();
         }
     }
 }

@@ -39,7 +39,16 @@
 
 <script>
     function Del(int Id) {
-        alert("正在开发中");
+        $.get("/Rebot/DelBlackQQ/" + Id, function (res) {
+            if (res.data > 0) {
+                alert("删除成功");
+                location.reload();
+            } else if (res.data < 0) {
+                alert("你不是管理员");
+            } else {
+                alert("删除失败");
+            }
+        })
     }
 </script>
 <style>

@@ -44,19 +44,20 @@ namespace 雨季鳄龟交易分享平台.Controllers
             //{
             //    return Redirect("/Home/Error");
             //}
+
             #endregion
 
             #region 国外的IP跳转到错误页面
 
-            HttpClientSample apiSample = new HttpClientSample("http://ip-api.com");
-            var html= apiSample.Client("get", "json/" + ip + "?lang=zh-CN");
-            //Newtonsoft.Json读取数据
-            JObject obj = JsonConvert.DeserializeObject<JObject>(html);
-            string country = obj["country"]?.ToString();
-            if (country != "中国")
-            {
-                return Redirect("/Home/Error");
-            }
+            //HttpClientSample apiSample = new HttpClientSample("http://ip-api.com");
+            //var html= apiSample.Client("get", "json/" + ip + "?lang=zh-CN");
+            ////Newtonsoft.Json读取数据
+            //JObject obj = JsonConvert.DeserializeObject<JObject>(html);
+            //string country = obj["country"]?.ToString();
+            //if (country != "中国")
+            //{
+            //    return Redirect("/Home/Error");
+            //}
 
             #endregion
             return View();
@@ -100,15 +101,15 @@ namespace 雨季鳄龟交易分享平台.Controllers
 
             #region 国外的IP跳转到错误页面
 
-            HttpClientSample apiSample = new HttpClientSample("http://ip-api.com");
-            var html = apiSample.Client("get", "json/" + ip + "?lang=zh-CN");
-            //Newtonsoft.Json读取数据
-            JObject obj = JsonConvert.DeserializeObject<JObject>(html);
-            string country = obj["country"]?.ToString();
-            if (country != "中国")
-            {
-                return Redirect("/Home/Error");
-            }
+            //HttpClientSample apiSample = new HttpClientSample("http://ip-api.com");
+            //var html = apiSample.Client("get", "json/" + ip + "?lang=zh-CN");
+            ////Newtonsoft.Json读取数据
+            //JObject obj = JsonConvert.DeserializeObject<JObject>(html);
+            //string country = obj["country"]?.ToString();
+            //if (country != "中国")
+            //{
+            //    return Redirect("/Home/Error");
+            //}
 
             #endregion
 
@@ -185,10 +186,6 @@ namespace 雨季鳄龟交易分享平台.Controllers
         }
 
         public IActionResult Add()
-        {
-            return View();
-        }
-        public IActionResult Error()
         {
             return View();
         }

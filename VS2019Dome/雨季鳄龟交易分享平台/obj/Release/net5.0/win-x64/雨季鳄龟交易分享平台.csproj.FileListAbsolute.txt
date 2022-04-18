@@ -824,7 +824,6 @@ C:\Users\linji\Documents\GitHub\desktop-tutorial\VS2019Dome\雨季鳄龟交易�
 C:\Users\linji\Documents\GitHub\desktop-tutorial\VS2019Dome\雨季鳄龟交易分享平台\bin\Release\net5.0\win-x64\hostfxr.dll
 C:\Users\linji\Documents\GitHub\desktop-tutorial\VS2019Dome\雨季鳄龟交易分享平台\bin\Release\net5.0\win-x64\hostpolicy.dll
 C:\Users\linji\Documents\GitHub\desktop-tutorial\VS2019Dome\雨季鳄龟交易分享平台\bin\Release\net5.0\win-x64\mscordaccore.dll
-C:\Users\linji\Documents\GitHub\desktop-tutorial\VS2019Dome\雨季鳄龟交易分享平台\bin\Release\net5.0\win-x64\mscordaccore_amd64_amd64_5.0.1522.11506.dll
 C:\Users\linji\Documents\GitHub\desktop-tutorial\VS2019Dome\雨季鳄龟交易分享平台\bin\Release\net5.0\win-x64\mscordbi.dll
 C:\Users\linji\Documents\GitHub\desktop-tutorial\VS2019Dome\雨季鳄龟交易分享平台\bin\Release\net5.0\win-x64\mscorrc.dll
 C:\Users\linji\Documents\GitHub\desktop-tutorial\VS2019Dome\雨季鳄龟交易分享平台\bin\Release\net5.0\win-x64\ucrtbase.dll
@@ -843,7 +842,6 @@ C:\Users\linji\Documents\GitHub\desktop-tutorial\VS2019Dome\雨季鳄龟交易�
 C:\Users\linji\Documents\GitHub\desktop-tutorial\VS2019Dome\雨季鳄龟交易分享平台\obj\Release\net5.0\win-x64\雨季鳄龟交易分享平台.RazorCoreGenerate.cache
 C:\Users\linji\Documents\GitHub\desktop-tutorial\VS2019Dome\雨季鳄龟交易分享平台\obj\Release\net5.0\win-x64\Razor\Views\Home\Add.cshtml.g.cs
 C:\Users\linji\Documents\GitHub\desktop-tutorial\VS2019Dome\雨季鳄龟交易分享平台\obj\Release\net5.0\win-x64\Razor\Views\Home\DetailInfo.cshtml.g.cs
-C:\Users\linji\Documents\GitHub\desktop-tutorial\VS2019Dome\雨季鳄龟交易分享平台\obj\Release\net5.0\win-x64\Razor\Views\Home\Error.cshtml.g.cs
 C:\Users\linji\Documents\GitHub\desktop-tutorial\VS2019Dome\雨季鳄龟交易分享平台\obj\Release\net5.0\win-x64\Razor\Views\Home\Index.cshtml.g.cs
 C:\Users\linji\Documents\GitHub\desktop-tutorial\VS2019Dome\雨季鳄龟交易分享平台\obj\Release\net5.0\win-x64\Razor\Views\Home\Login.cshtml.g.cs
 C:\Users\linji\Documents\GitHub\desktop-tutorial\VS2019Dome\雨季鳄龟交易分享平台\obj\Release\net5.0\win-x64\Razor\Views\Home\Privacy.cshtml.g.cs
@@ -860,3 +858,7 @@ C:\Users\linji\Documents\GitHub\desktop-tutorial\VS2019Dome\雨季鳄龟交易�
 C:\Users\linji\Documents\GitHub\desktop-tutorial\VS2019Dome\雨季鳄龟交易分享平台\obj\Release\net5.0\win-x64\ref\雨季鳄龟交易分享平台.dll
 C:\Users\linji\Documents\GitHub\desktop-tutorial\VS2019Dome\雨季鳄龟交易分享平台\obj\Release\net5.0\win-x64\雨季鳄龟交易分享平台.pdb
 C:\Users\linji\Documents\GitHub\desktop-tutorial\VS2019Dome\雨季鳄龟交易分享平台\obj\Release\net5.0\win-x64\雨季鳄龟交易分享平台.genruntimeconfig.cache
+C:\Users\linji\Documents\GitHub\desktop-tutorial\VS2019Dome\雨季鳄龟交易分享平台\bin\Release\net5.0\win-x64\api-ms-win-core-fibers-l1-1-0.dll
+C:\Users\linji\Documents\GitHub\desktop-tutorial\VS2019Dome\雨季鳄龟交易分享平台\bin\Release\net5.0\win-x64\mscordaccore_amd64_amd64_5.0.1622.16705.dll
+C:\Users\linji\Documents\GitHub\desktop-tutorial\VS2019Dome\雨季鳄龟交易分享平台\obj\Release\net5.0\win-x64\Razor\Views\Rebot\BlakList.cshtml.g.cs
+C:\Users\linji\Documents\GitHub\desktop-tutorial\VS2019Dome\雨季鳄龟交易分享平台\obj\Release\net5.0\win-x64\Razor\Views\Rebot\Index.cshtml.g.cs

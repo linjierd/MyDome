@@ -211,7 +211,6 @@ C:\Users\linji\Documents\GitHub\desktop-tutorial\VS2019Dome\雨季鳄龟交易�
 C:\Users\linji\Documents\GitHub\desktop-tutorial\VS2019Dome\雨季鳄龟交易分享平台\obj\Release\net5.0\雨季鳄龟交易分享平台.RazorCoreGenerate.cache
 C:\Users\linji\Documents\GitHub\desktop-tutorial\VS2019Dome\雨季鳄龟交易分享平台\obj\Release\net5.0\Razor\Views\Home\Add.cshtml.g.cs
 C:\Users\linji\Documents\GitHub\desktop-tutorial\VS2019Dome\雨季鳄龟交易分享平台\obj\Release\net5.0\Razor\Views\Home\DetailInfo.cshtml.g.cs
-C:\Users\linji\Documents\GitHub\desktop-tutorial\VS2019Dome\雨季鳄龟交易分享平台\obj\Release\net5.0\Razor\Views\Home\Error.cshtml.g.cs
 C:\Users\linji\Documents\GitHub\desktop-tutorial\VS2019Dome\雨季鳄龟交易分享平台\obj\Release\net5.0\Razor\Views\Home\Index.cshtml.g.cs
 C:\Users\linji\Documents\GitHub\desktop-tutorial\VS2019Dome\雨季鳄龟交易分享平台\obj\Release\net5.0\Razor\Views\Home\Login.cshtml.g.cs
 C:\Users\linji\Documents\GitHub\desktop-tutorial\VS2019Dome\雨季鳄龟交易分享平台\obj\Release\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
@@ -228,3 +227,5 @@ C:\Users\linji\Documents\GitHub\desktop-tutorial\VS2019Dome\雨季鳄龟交易�
 C:\Users\linji\Documents\GitHub\desktop-tutorial\VS2019Dome\雨季鳄龟交易分享平台\obj\Release\net5.0\ref\雨季鳄龟交易分享平台.dll
 C:\Users\linji\Documents\GitHub\desktop-tutorial\VS2019Dome\雨季鳄龟交易分享平台\obj\Release\net5.0\雨季鳄龟交易分享平台.pdb
 C:\Users\linji\Documents\GitHub\desktop-tutorial\VS2019Dome\雨季鳄龟交易分享平台\obj\Release\net5.0\雨季鳄龟交易分享平台.genruntimeconfig.cache
+C:\Users\linji\Documents\GitHub\desktop-tutorial\VS2019Dome\雨季鳄龟交易分享平台\obj\Release\net5.0\Razor\Views\Rebot\BlakList.cshtml.g.cs
+C:\Users\linji\Documents\GitHub\desktop-tutorial\VS2019Dome\雨季鳄龟交易分享平台\obj\Release\net5.0\Razor\Views\Rebot\Index.cshtml.g.cs

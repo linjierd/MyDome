@@ -350,6 +350,7 @@ C:\Users\linji\Documents\GitHub\desktop-tutorial\VS2019Dome\雨季鳄龟交易�
 C:\Users\linji\Documents\GitHub\desktop-tutorial\VS2019Dome\雨季鳄龟交易分享平台\obj\Release\net5.0\win-x64\PubTmp\Out\api-ms-win-core-datetime-l1-1-0.dll
 C:\Users\linji\Documents\GitHub\desktop-tutorial\VS2019Dome\雨季鳄龟交易分享平台\obj\Release\net5.0\win-x64\PubTmp\Out\api-ms-win-core-debug-l1-1-0.dll
 C:\Users\linji\Documents\GitHub\desktop-tutorial\VS2019Dome\雨季鳄龟交易分享平台\obj\Release\net5.0\win-x64\PubTmp\Out\api-ms-win-core-errorhandling-l1-1-0.dll
+C:\Users\linji\Documents\GitHub\desktop-tutorial\VS2019Dome\雨季鳄龟交易分享平台\obj\Release\net5.0\win-x64\PubTmp\Out\api-ms-win-core-fibers-l1-1-0.dll
 C:\Users\linji\Documents\GitHub\desktop-tutorial\VS2019Dome\雨季鳄龟交易分享平台\obj\Release\net5.0\win-x64\PubTmp\Out\api-ms-win-core-file-l1-1-0.dll
 C:\Users\linji\Documents\GitHub\desktop-tutorial\VS2019Dome\雨季鳄龟交易分享平台\obj\Release\net5.0\win-x64\PubTmp\Out\api-ms-win-core-file-l1-2-0.dll
 C:\Users\linji\Documents\GitHub\desktop-tutorial\VS2019Dome\雨季鳄龟交易分享平台\obj\Release\net5.0\win-x64\PubTmp\Out\api-ms-win-core-file-l2-1-0.dll
@@ -395,7 +396,7 @@ C:\Users\linji\Documents\GitHub\desktop-tutorial\VS2019Dome\雨季鳄龟交易�
 C:\Users\linji\Documents\GitHub\desktop-tutorial\VS2019Dome\雨季鳄龟交易分享平台\obj\Release\net5.0\win-x64\PubTmp\Out\hostfxr.dll
 C:\Users\linji\Documents\GitHub\desktop-tutorial\VS2019Dome\雨季鳄龟交易分享平台\obj\Release\net5.0\win-x64\PubTmp\Out\hostpolicy.dll
 C:\Users\linji\Documents\GitHub\desktop-tutorial\VS2019Dome\雨季鳄龟交易分享平台\obj\Release\net5.0\win-x64\PubTmp\Out\mscordaccore.dll
-C:\Users\linji\Documents\GitHub\desktop-tutorial\VS2019Dome\雨季鳄龟交易分享平台\obj\Release\net5.0\win-x64\PubTmp\Out\mscordaccore_amd64_amd64_5.0.1522.11506.dll
+C:\Users\linji\Documents\GitHub\desktop-tutorial\VS2019Dome\雨季鳄龟交易分享平台\obj\Release\net5.0\win-x64\PubTmp\Out\mscordaccore_amd64_amd64_5.0.1622.16705.dll
 C:\Users\linji\Documents\GitHub\desktop-tutorial\VS2019Dome\雨季鳄龟交易分享平台\obj\Release\net5.0\win-x64\PubTmp\Out\mscordbi.dll
 C:\Users\linji\Documents\GitHub\desktop-tutorial\VS2019Dome\雨季鳄龟交易分享平台\obj\Release\net5.0\win-x64\PubTmp\Out\mscorrc.dll
 C:\Users\linji\Documents\GitHub\desktop-tutorial\VS2019Dome\雨季鳄龟交易分享平台\obj\Release\net5.0\win-x64\PubTmp\Out\ucrtbase.dll
