@@ -7,9 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "禁言关键字处理", "�
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "聚合数据", "聚合数据\聚合数据.csproj", "{57065A39-6339-44A3-8F43-FE8388E0F89C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "读取文件转换为实体", "读取文件转换为实体\读取文件转换为实体.csproj", "{55494A28-7659-4B16-A229-231F0DDCF721}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "读取文件转换为实体", "读取文件转换为实体\读取文件转换为实体.csproj", "{55494A28-7659-4B16-A229-231F0DDCF721}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "雨季鳄龟交易分享平台", "雨季鳄龟交易分享平台\雨季鳄龟交易分享平台.csproj", "{21686C8C-3860-4EAA-AC72-2B4EA3B00978}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "雨季鳄龟交易分享平台", "雨季鳄龟交易分享平台\雨季鳄龟交易分享平台.csproj", "{21686C8C-3860-4EAA-AC72-2B4EA3B00978}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "递归", "递归\递归.csproj", "{5B91A981-B360-4AB2-8D7C-12736D64A411}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{21686C8C-3860-4EAA-AC72-2B4EA3B00978}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{21686C8C-3860-4EAA-AC72-2B4EA3B00978}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{21686C8C-3860-4EAA-AC72-2B4EA3B00978}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B91A981-B360-4AB2-8D7C-12736D64A411}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B91A981-B360-4AB2-8D7C-12736D64A411}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B91A981-B360-4AB2-8D7C-12736D64A411}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B91A981-B360-4AB2-8D7C-12736D64A411}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -5,6 +5,6 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <_PublishTargetUrl>C:\Users\linji\Documents\GitHub\desktop-tutorial\VS2019Dome\雨季鳄龟交易分享平台\bin\Release\net5.0\publish\</_PublishTargetUrl>
-    <History>True|2022-04-13T04:01:53.0438269Z;</History>
+    <History>True|2022-04-13T04:10:12.4126146Z;True|2022-04-13T12:07:53.3010804+08:00;True|2022-04-13T12:01:53.0438269+08:00;</History>
   </PropertyGroup>
 </Project>
