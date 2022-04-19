@@ -862,3 +862,4 @@ C:\Users\linji\Documents\GitHub\desktop-tutorial\VS2019Dome\雨季鳄龟交易�
 C:\Users\linji\Documents\GitHub\desktop-tutorial\VS2019Dome\雨季鳄龟交易分享平台\bin\Release\net5.0\win-x64\mscordaccore_amd64_amd64_5.0.1622.16705.dll
 C:\Users\linji\Documents\GitHub\desktop-tutorial\VS2019Dome\雨季鳄龟交易分享平台\obj\Release\net5.0\win-x64\Razor\Views\Rebot\BlakList.cshtml.g.cs
 C:\Users\linji\Documents\GitHub\desktop-tutorial\VS2019Dome\雨季鳄龟交易分享平台\obj\Release\net5.0\win-x64\Razor\Views\Rebot\Index.cshtml.g.cs
+C:\Users\linji\Documents\GitHub\desktop-tutorial\VS2019Dome\雨季鳄龟交易分享平台\obj\Release\net5.0\win-x64\Razor\Views\Rebot\WarningTimes.cshtml.g.cs

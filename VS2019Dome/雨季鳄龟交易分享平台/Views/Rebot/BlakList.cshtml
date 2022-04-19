@@ -29,7 +29,7 @@
             <td>
                 @if (IsAdmin)
                 {
-                <input type="button" name="name" value="删除" onclick="Del(@item.Id)" />
+                <input type="button" name="name" value="删除" onclick="Del('@item.Id')" />
                 }
             </td>
         </tr>
@@ -38,12 +38,12 @@
 </table>
 
 <script>
-    function Del(int Id) {
+    function Del(Id) {
         $.get("/Rebot/DelBlackQQ/" + Id, function (res) {
-            if (res.data > 0) {
+            if (res > 0) {
                 alert("删除成功");
                 location.reload();
-            } else if (res.data < 0) {
+            } else if (res < 0) {
                 alert("你不是管理员");
             } else {
                 alert("删除失败");
