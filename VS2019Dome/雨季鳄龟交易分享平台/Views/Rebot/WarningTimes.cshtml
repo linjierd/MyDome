@@ -9,9 +9,14 @@
     List<WarningTime> blackQQs = ViewBag.WarningTimes;
     bool IsAdmin = ViewBag.IsAdmin;
 }
-<input type="button" name="name" onclick="ClearWarning()" value="清除警告次数" />
-<input type="button" name="name" onclick="ClearGag()" value="清除禁言次数" />
-<input type="button" name="name" onclick="ClearAllData()" value="清除所有数据" />
+
+@if (IsAdmin)
+{
+    <input type="button" name="name" onclick="ClearWarning()" value="清除警告次数" />
+    <input type="button" name="name" onclick="ClearGag()" value="清除禁言次数" />
+    <input type="button" name="name" onclick="ClearAllData()" value="清除所有数据" />
+}
+
 
 <table>
     <tr>
@@ -25,20 +30,20 @@
     </tr>
     @foreach (var item in blackQQs)
     {
-        <tr>
-            <td><span>@item.Id</span></td>
-            <td><span>@item.GroupId</span></td>
-            <td><span>@item.QQ</span></td>
-            <td><span>@item.WarningTimes</span></td>
-            <td><span>@item.GagTimes</span></td>
-            <td><span>@item.LastTime</span></td>
-            <td>
-                @if (IsAdmin)
+    <tr>
+        <td><span>@item.Id</span></td>
+        <td><span>@item.GroupId</span></td>
+        <td><span>@item.QQ</span></td>
+        <td><span>@item.WarningTimes</span></td>
+        <td><span>@item.GagTimes</span></td>
+        <td><span>@item.LastTime</span></td>
+        <td>
+            @if (IsAdmin)
                 {
-                    <input type="button" name="name" value="删除" onclick="Del(@item.Id)" />
+            <input type="button" name="name" value="删除" onclick="Del(@item.Id)" />
                 }
-            </td>
-        </tr>
+        </td>
+    </tr>
     }
 
 </table>

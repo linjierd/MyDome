@@ -80,6 +80,28 @@ namespace 雨季鳄龟交易分享平台.Controllers
 
         }
 
+        public int ClearBlackList()
+        {
+            #region 验证管理员身份
+
+            //获取用户IP
+            string ip = Commond.GetHostAddress();
+            DbContext dbMaster = new DbContext();
+            var user = dbMaster.Db.Queryable<Yuji_User>().Single(m => m.yj_IP == ip);
+
+            if (user.yj_UserName != "Admin")
+            {
+                return -1;
+            }
+            #endregion
+
+            SqlConnection SqlConnection = _configuration.GetSection("SqlConnection").Get<SqlConnection>();
+            DbContext db = new DbContext(SqlConnection.BlacklistPlugin, SqlSugar.DbType.Sqlite);
+            var rows = db.Db.Deleteable<BlackQQ>().ExecuteCommand();
+            return rows;
+
+        }
+
         #endregion
 
         #region 警告禁言次数

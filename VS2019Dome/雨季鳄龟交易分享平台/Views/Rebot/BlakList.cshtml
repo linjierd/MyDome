@@ -9,10 +9,14 @@
     bool IsAdmin = ViewBag.IsAdmin;
 }
 
+@if (IsAdmin)
+{
+<input type="button" name="name" value="清除所有黑名单" onclick="ClearAllData()" />
+}
 <table>
     <tr>
-        <th >序号</th>
-        <th >群号</th>
+        <th>序号</th>
+        <th>群号</th>
         <th>QQ号</th>
         <th>描述</th>
         <th>添加时间</th>
@@ -20,19 +24,19 @@
     </tr>
     @foreach (var item in blackQQs)
     {
-        <tr>
-            <td><span>@item.Id</span></td>
-            <td><span>@item.GroupId</span></td>
-            <td><span>@item.QQ</span></td>
-            <td><span>@item.Remark</span></td>
-            <td><span>@item.CreateTime</span></td>
-            <td>
-                @if (IsAdmin)
+    <tr>
+        <td><span>@item.Id</span></td>
+        <td><span>@item.GroupId</span></td>
+        <td><span>@item.QQ</span></td>
+        <td><span>@item.Remark</span></td>
+        <td><span>@item.CreateTime</span></td>
+        <td>
+            @if (IsAdmin)
                 {
-                <input type="button" name="name" value="删除" onclick="Del('@item.Id')" />
+            <input type="button" name="name" value="删除" onclick="Del('@item.Id')" />
                 }
-            </td>
-        </tr>
+        </td>
+    </tr>
     }
 
 </table>
@@ -50,11 +54,24 @@
             }
         })
     }
+    function ClearAllData() {
+        $.get("/Rebot/ClearBlackList/", function (res) {
+            if (res > 0) {
+                alert("删除成功");
+                location.reload();
+            } else if (res < 0) {
+                alert("你不是管理员");
+            } else {
+                alert("删除失败");
+            }
+        })
+    }
 </script>
 <style>
     th {
         border: 1px solid #000000;
     }
+
     td {
         border: 1px solid #000000;
     }
