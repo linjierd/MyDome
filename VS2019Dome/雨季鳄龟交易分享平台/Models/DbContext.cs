@@ -19,13 +19,6 @@ namespace 雨季鳄龟交易分享平台.Models
                 IsAutoCloseConnection = true,//开启自动释放模式和EF原理一样我就不多解释了
 
             });
-            //调式代码 用来打印SQL 
-            //Db.Aop.OnLogExecuting = (sql, pars) =>
-            //{
-            //    Console.WriteLine(sql + "\r\n" +
-            //        Db.Utilities.SerializeObject(pars.ToDictionary(it => it.ParameterName, it => it.Value)));
-            //    Console.WriteLine();
-            //};
 
         }
         public DbContext(string ConnectionString, DbType dbType)
@@ -38,14 +31,6 @@ namespace 雨季鳄龟交易分享平台.Models
                 IsAutoCloseConnection = true,//开启自动释放模式和EF原理一样我就不多解释了
 
             });
-            //调式代码 用来打印SQL 
-            //Db.Aop.OnLogExecuting = (sql, pars) =>
-            //{
-            //    Console.WriteLine(sql + "\r\n" +
-            //        Db.Utilities.SerializeObject(pars.ToDictionary(it => it.ParameterName, it => it.Value)));
-            //    Console.WriteLine();
-            //};
-
         }
 
         /// <summary>
