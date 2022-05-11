@@ -1,0 +1,15 @@
+2022-05-06 17:36:58.364 +08:00 [INF] Starting Worker of Windows Services
+2022-05-06 17:37:00.125 +08:00 [INF] Worker service starting at:"2022-05-06T17:37:00.1076301+08:00",Intermittent time:3600 second
+2022-05-06 17:37:00.142 +08:00 [INF] Worker running at: "2022-05-06T17:37:00.1420929+08:00"
+2022-05-06 17:39:46.237 +08:00 [INF] Starting Worker of Windows Services
+2022-05-06 17:39:47.414 +08:00 [INF] Worker service starting at:"2022-05-06T17:39:47.3958529+08:00",Intermittent time:3600 second
+2022-05-06 17:39:47.430 +08:00 [INF] Worker running at: "2022-05-06T17:39:47.4305764+08:00"
+2022-05-06 17:51:58.006 +08:00 [INF] Starting Worker of Windows Services
+2022-05-06 17:51:59.037 +08:00 [INF] Worker service starting at:"2022-05-06T17:51:59.0122713+08:00",Intermittent time:3600 second
+2022-05-06 17:51:59.067 +08:00 [INF] Worker running at: "2022-05-06T17:51:59.0675025+08:00"
+2022-05-06 17:54:36.719 +08:00 [INF] Starting Worker of Windows Services
+2022-05-06 17:54:37.549 +08:00 [INF] Worker service starting at:"2022-05-06T17:54:37.5298315+08:00",Intermittent time:3600 second
+2022-05-06 17:54:37.567 +08:00 [INF] Worker running at: "2022-05-06T17:54:37.5671867+08:00"
+2022-05-06 17:55:59.678 +08:00 [INF] Starting Worker of Windows Services
+2022-05-06 17:56:00.677 +08:00 [INF] Worker service starting at:"2022-05-06T17:56:00.6545987+08:00",Intermittent time:3600 second
+2022-05-06 17:56:00.693 +08:00 [INF] Worker running at: "2022-05-06T17:56:00.6930665+08:00"

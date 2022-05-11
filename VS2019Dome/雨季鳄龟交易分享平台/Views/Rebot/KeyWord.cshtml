@@ -1,0 +1,47 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+@{
+
+    @using NetCoreMVC.Models.SqlLite;
+    List<KeyWord> blackQQs = ViewBag.KeyWord;
+    bool IsAdmin = ViewBag.IsAdmin;
+}
+
+@if (IsAdmin)
+{
+    <input type="button" name="name" value="清除" onclick="ClearAllData(alert('正在开发中'))" />
+}
+<table>
+    <tr>
+        <th>序号</th>
+        <th>群号</th>
+        <th>关键词</th>
+        <th>操作</th>
+        <th>添加时间</th>
+    </tr>
+    @foreach (var item in blackQQs)
+    {
+        <tr>
+            <td> <span> @item.Id </span> </td>
+            <td> <span> @item.GroupId </span> </td>
+            <td> <span> @item.Keyword </span> </td>
+            <td> <span> @item.PunishTypeDB </span> </td>
+            <td> <span> @item.CreateTime </span> </td>
+        </tr>
+    }
+
+</table>
+
+<style>
+    th {
+        border: 1px solid #000000;
+    }
+
+    td {
+        border: 1px solid #000000;
+    }
+</style>

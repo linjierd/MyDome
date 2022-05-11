@@ -60,7 +60,6 @@ namespace PostgreSqlDome
             this.btn_InsertData.TabIndex = 2;
             this.btn_InsertData.Text = "插入数据测试";
             this.btn_InsertData.UseVisualStyleBackColor = true;
-            this.btn_InsertData.Click += new System.EventHandler(this.button1_Click);
             // 
             // Form1
             // 

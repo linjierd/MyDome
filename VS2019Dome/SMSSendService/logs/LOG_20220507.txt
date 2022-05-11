@@ -1,0 +1,75 @@
+2022-05-07 11:05:33.114 +08:00 [INF] Starting Scale Handlefile of Windows Services
+2022-05-07 11:05:35.150 +08:00 [INF] Scale handleFile service starting at:"2022-05-07T11:05:35.1269997+08:00",Intermittent time:3600 second
+2022-05-07 11:05:35.163 +08:00 [INF] Worker running at: "2022-05-07T11:05:35.1630652+08:00"
+2022-05-07 11:12:39.682 +08:00 [INF] Starting Scale Handlefile of Windows Services
+2022-05-07 11:12:40.479 +08:00 [INF] Scale handleFile service starting at:"2022-05-07T11:12:40.4626673+08:00",Intermittent time:3600 second
+2022-05-07 11:12:40.489 +08:00 [INF] Worker running at: "2022-05-07T11:12:40.4895440+08:00"
+2022-05-07 12:18:33.663 +08:00 [INF] Starting Scale Handlefile of Windows Services
+2022-05-07 12:18:34.681 +08:00 [INF] Scale handleFile service starting at:"2022-05-07T12:18:34.6569457+08:00",Intermittent time:3600 second
+2022-05-07 12:18:34.700 +08:00 [INF] Worker running at: "2022-05-07T12:18:34.7005377+08:00"
+2022-05-07 12:20:11.769 +08:00 [FTL] Scale Handlefile terminated unexpectedly:One or more errors occurred. (The character set provided in ContentType is invalid. Cannot read content as string using an invalid character set.)
+System.AggregateException: One or more errors occurred. (The character set provided in ContentType is invalid. Cannot read content as string using an invalid character set.)
+ ---> System.InvalidOperationException: The character set provided in ContentType is invalid. Cannot read content as string using an invalid character set.
+ ---> System.ArgumentException: 'gb2312' is not a supported encoding name. For information on defining a custom encoding, see the documentation for the Encoding.RegisterProvider method. (Parameter 'name')
+   at System.Text.EncodingTable.InternalGetCodePageFromName(String name)
+   at System.Text.EncodingTable.GetCodePageFromName(String name)
+   at System.Text.Encoding.GetEncoding(String name)
+   at System.Net.Http.HttpContent.ReadBufferAsString(ArraySegment`1 buffer, HttpContentHeaders headers)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpContent.ReadBufferAsString(ArraySegment`1 buffer, HttpContentHeaders headers)
+   at System.Net.Http.HttpContent.ReadBufferedContentAsString()
+   at System.Net.Http.HttpContent.<>c.<ReadAsStringAsync>b__36_0(HttpContent s)
+   at System.Net.Http.HttpContent.WaitAndReturnAsync[TState,TResult](Task waitTask, TState state, Func`2 returnFunc)
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at SMSSendService.Common.HttpClientSample.Client(String verbs, String uri, Object obj) in C:\Users\linji\Documents\GitHub\desktop-tutorial\VS2019Dome\SMSSendService\Common\HttpClientSample.cs:line 31
+   at SMSSendService.Service.SMS.SendMsg(String userid, String timestamp, String mobile, String content, String sendTime, String action, String extno) in C:\Users\linji\Documents\GitHub\desktop-tutorial\VS2019Dome\SMSSendService\Service\SMS.SendMsg.cs:line 40
+   at SMSSendService.Service.SMS.Send() in C:\Users\linji\Documents\GitHub\desktop-tutorial\VS2019Dome\SMSSendService\Service\SMS.SendMsg.cs:line 32
+   at SMSSendService.Worker.ExecuteAsync(CancellationToken stoppingToken) in C:\Users\linji\Documents\GitHub\desktop-tutorial\VS2019Dome\SMSSendService\Worker.cs:line 35
+   at SMSSendService.Worker.StartAsync(CancellationToken cancellationToken) in C:\Users\linji\Documents\GitHub\desktop-tutorial\VS2019Dome\SMSSendService\Worker.cs:line 52
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.Run(IHost host)
+   at SMSSendService.Program.Main(String[] args) in C:\Users\linji\Documents\GitHub\desktop-tutorial\VS2019Dome\SMSSendService\Program.cs:line 28
+2022-05-07 16:04:30.391 +08:00 [INF] Starting Scale Handlefile of Windows Services
+2022-05-07 16:04:31.815 +08:00 [INF] Scale handleFile service starting at:"2022-05-07T16:04:31.7911653+08:00",Intermittent time:3600 second
+2022-05-07 16:04:31.837 +08:00 [INF] Worker running at: "2022-05-07T16:04:31.8369216+08:00"
+2022-05-07 16:10:38.568 +08:00 [INF] Starting Scale Handlefile of Windows Services
+2022-05-07 16:10:39.273 +08:00 [INF] Scale handleFile service starting at:"2022-05-07T16:10:39.2553526+08:00",Intermittent time:3600 second
+2022-05-07 16:10:39.284 +08:00 [INF] Worker running at: "2022-05-07T16:10:39.2843985+08:00"
+2022-05-07 16:12:38.899 +08:00 [INF] Starting Scale Handlefile of Windows Services
+2022-05-07 16:12:39.718 +08:00 [INF] Scale handleFile service starting at:"2022-05-07T16:12:39.6952554+08:00",Intermittent time:3600 second
+2022-05-07 16:12:39.731 +08:00 [INF] Worker running at: "2022-05-07T16:12:39.7311232+08:00"
+2022-05-07 16:14:40.937 +08:00 [INF] Starting Scale Handlefile of Windows Services
+2022-05-07 16:14:42.336 +08:00 [INF] Scale handleFile service starting at:"2022-05-07T16:14:42.3019768+08:00",Intermittent time:3600 second
+2022-05-07 16:14:42.402 +08:00 [INF] Worker running at: "2022-05-07T16:14:42.4026428+08:00"
+2022-05-07 16:16:48.391 +08:00 [INF] Starting Scale Handlefile of Windows Services
+2022-05-07 16:16:49.719 +08:00 [INF] Scale handleFile service starting at:"2022-05-07T16:16:49.6872150+08:00",Intermittent time:3600 second
+2022-05-07 16:16:49.757 +08:00 [INF] Worker running at: "2022-05-07T16:16:49.7577845+08:00"
+2022-05-07 16:18:31.390 +08:00 [INF] Starting Scale Handlefile of Windows Services
+2022-05-07 16:18:32.537 +08:00 [INF] Scale handleFile service starting at:"2022-05-07T16:18:32.5167551+08:00",Intermittent time:3600 second
+2022-05-07 16:18:32.548 +08:00 [INF] Worker running at: "2022-05-07T16:18:32.5487210+08:00"
+2022-05-07 16:18:57.070 +08:00 [INF] Starting Scale Handlefile of Windows Services
+2022-05-07 16:18:58.036 +08:00 [INF] Scale handleFile service starting at:"2022-05-07T16:18:58.0091387+08:00",Intermittent time:3600 second
+2022-05-07 16:18:58.053 +08:00 [INF] Worker running at: "2022-05-07T16:18:58.0530560+08:00"
+2022-05-07 16:19:20.918 +08:00 [ERR] One or more errors occurred. (The character set provided in ContentType is invalid. Cannot read content as string using an invalid character set.)
+2022-05-07 16:19:55.533 +08:00 [INF] Starting Scale Handlefile of Windows Services
+2022-05-07 16:19:56.443 +08:00 [INF] Scale handleFile service starting at:"2022-05-07T16:19:56.4175062+08:00",Intermittent time:3600 second
+2022-05-07 16:19:56.458 +08:00 [INF] Worker running at: "2022-05-07T16:19:56.4585678+08:00"
+2022-05-07 16:20:08.156 +08:00 [INF] Starting Scale Handlefile of Windows Services
+2022-05-07 16:20:09.024 +08:00 [INF] Scale handleFile service starting at:"2022-05-07T16:20:09.0006496+08:00",Intermittent time:3600 second
+2022-05-07 16:20:09.040 +08:00 [INF] Worker running at: "2022-05-07T16:20:09.0407367+08:00"
+2022-05-07 16:22:18.556 +08:00 [INF] Starting Scale Handlefile of Windows Services
+2022-05-07 16:22:20.140 +08:00 [INF] Scale handleFile service starting at:"2022-05-07T16:22:20.1228792+08:00",Intermittent time:3600 second
+2022-05-07 16:22:20.150 +08:00 [INF] Worker running at: "2022-05-07T16:22:20.1507230+08:00"
+2022-05-07 16:28:39.468 +08:00 [INF] Starting Scale Handlefile of Windows Services
+2022-05-07 16:28:40.463 +08:00 [INF] Scale handleFile service starting at:"2022-05-07T16:28:40.4332820+08:00",Intermittent time:3600 second
+2022-05-07 16:28:40.477 +08:00 [INF] Worker running at: "2022-05-07T16:28:40.4770000+08:00"
+2022-05-07 16:32:00.564 +08:00 [INF] Starting Scale Handlefile of Windows Services
+2022-05-07 16:32:02.025 +08:00 [INF] Scale handleFile service starting at:"2022-05-07T16:32:01.9963387+08:00",Intermittent time:3600 second
+2022-05-07 16:32:02.051 +08:00 [INF] Worker running at: "2022-05-07T16:32:02.0510517+08:00"
+2022-05-07 16:35:55.147 +08:00 [INF] Starting Scale Handlefile of Windows Services
+2022-05-07 16:35:56.627 +08:00 [INF] Scale handleFile service starting at:"2022-05-07T16:35:56.5907868+08:00",Intermittent time:3600 second
+2022-05-07 16:35:56.678 +08:00 [INF] Worker running at: "2022-05-07T16:35:56.6785430+08:00"
