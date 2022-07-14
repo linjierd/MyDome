@@ -1,0 +1,5 @@
+C:\Users\linji\Documents\GitHub\desktop-tutorial\VS2019Dome\WindowsFormsByFramework4\obj\Debug\WindowsFormsByFramework4.csproj.AssemblyReference.cache
+C:\Users\linji\Documents\GitHub\desktop-tutorial\VS2019Dome\WindowsFormsByFramework4\obj\Debug\WindowsFormsByFramework4.Form1.resources
+C:\Users\linji\Documents\GitHub\desktop-tutorial\VS2019Dome\WindowsFormsByFramework4\obj\Debug\WindowsFormsByFramework4.Properties.Resources.resources
+C:\Users\linji\Documents\GitHub\desktop-tutorial\VS2019Dome\WindowsFormsByFramework4\obj\Debug\WindowsFormsByFramework4.csproj.GenerateResource.cache
+C:\Users\linji\Documents\GitHub\desktop-tutorial\VS2019Dome\WindowsFormsByFramework4\obj\Debug\WindowsFormsByFramework4.csproj.CoreCompileInputs.cache

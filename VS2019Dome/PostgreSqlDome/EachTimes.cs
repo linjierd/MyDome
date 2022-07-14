@@ -1,4 +1,6 @@
-﻿using PostgreSqlDome.Common;
+﻿using Npgsql;
+using NpgsqlTypes;
+using PostgreSqlDome.Common;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -30,6 +32,7 @@ namespace PostgreSqlDome
 
         public static void InsertData(int foreachTimes)
         {
+            NpgsqlParameter npgsql = new NpgsqlParameter("", NpgsqlDbType.Varchar, 50);
             try
             {
                 
@@ -38,12 +41,12 @@ namespace PostgreSqlDome
 
                 for (int i = 1; i <= foreachTimes; i++)
                 {
-                    form1.tbx_Result.Text = $"正在循环第{i}次 \r\n";
+                    //form1.tbx_Result.Text = $"正在循环第{i}次 \r\n";
                     var t1 = PostgreSqlCommon.ExecNonQueryBySql("update varcharLengthTest_varchar set dt=dt||'A';");
                     var t2 = PostgreSqlCommon.ExecNonQueryBySql("update varcharLengthTest_nvarchar set dt=dt||'啊';");
                     if (t1 > 0 && t2 > 0)
                     {
-                        form1.tbx_Result.Text += "pass";
+                        //form1.tbx_Result.Text += "pass";
                     }
 
                 }

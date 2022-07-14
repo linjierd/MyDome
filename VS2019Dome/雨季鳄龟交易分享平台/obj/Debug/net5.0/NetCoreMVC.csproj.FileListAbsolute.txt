@@ -116,3 +116,6 @@ C:\Users\linji\Documents\GitHub\desktop-tutorial\VS2019Dome\雨季鳄龟交易�
 C:\Users\linji\Documents\GitHub\desktop-tutorial\VS2019Dome\雨季鳄龟交易分享平台\obj\Debug\net5.0\ref\NetCoreMVC.dll
 C:\Users\linji\Documents\GitHub\desktop-tutorial\VS2019Dome\雨季鳄龟交易分享平台\obj\Debug\net5.0\NetCoreMVC.pdb
 C:\Users\linji\Documents\GitHub\desktop-tutorial\VS2019Dome\雨季鳄龟交易分享平台\obj\Debug\net5.0\NetCoreMVC.genruntimeconfig.cache
+C:\Users\linji\Documents\GitHub\desktop-tutorial\VS2019Dome\雨季鳄龟交易分享平台\obj\Debug\net5.0\Razor\Views\Deceptive\Index.cshtml.g.cs
+C:\Users\linji\Documents\GitHub\desktop-tutorial\VS2019Dome\雨季鳄龟交易分享平台\obj\Debug\net5.0\Razor\Views\Deceptive\Add.cshtml.g.cs
+C:\Users\linji\Documents\GitHub\desktop-tutorial\VS2019Dome\雨季鳄龟交易分享平台\obj\Debug\net5.0\Razor\Views\Deceptive\DetailInfo.cshtml.g.cs

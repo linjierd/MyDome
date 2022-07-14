@@ -151,7 +151,7 @@ namespace 雨季鳄龟交易分享平台.Controllers
             #region 查询乌龟销售列表
 
             //数据库获取出售列表
-            var SellList = _db.Db.Queryable<YuJi_Sell>().Where(m=>m.yj_isDelete!=true).OrderBy(m=>m.yj_Time,SqlSugar.OrderByType.Desc).ToList();
+            var SellList = _db.Db.Queryable<YuJi_Sell>().Where(m=>m.yj_isDelete!=true).OrderBy(m=>m.yj_Time,SqlSugar.OrderByType.Desc).Take(10).ToList();
 
             foreach (var item in SellList)
             {

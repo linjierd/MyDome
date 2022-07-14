@@ -72,3 +72,4 @@ C:\Users\linji\Documents\GitHub\desktop-tutorial\VS2019Dome\PostgreSqlDome\bin\D
 C:\Users\linji\Documents\GitHub\desktop-tutorial\VS2019Dome\PostgreSqlDome\bin\Debug\net5.0-windows\runtimes\win\lib\netcoreapp2.0\System.DirectoryServices.dll
 C:\Users\linji\Documents\GitHub\desktop-tutorial\VS2019Dome\PostgreSqlDome\bin\Debug\net5.0-windows\runtimes\win\lib\netcoreapp2.0\System.DirectoryServices.Protocols.dll
 C:\Users\linji\Documents\GitHub\desktop-tutorial\VS2019Dome\PostgreSqlDome\bin\Debug\net5.0-windows\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\linji\Documents\GitHub\desktop-tutorial\VS2019Dome\PostgreSqlDome\obj\Debug\net5.0-windows\PostgreSqlDome.EachTimes.resources

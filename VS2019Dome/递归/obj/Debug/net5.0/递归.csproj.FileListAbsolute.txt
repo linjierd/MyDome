@@ -15,3 +15,4 @@ C:\Users\linji\Documents\GitHub\desktop-tutorial\VS2019Dome\递归\obj\Debug\net
 C:\Users\linji\Documents\GitHub\desktop-tutorial\VS2019Dome\递归\obj\Debug\net5.0\ref\递归.dll
 C:\Users\linji\Documents\GitHub\desktop-tutorial\VS2019Dome\递归\obj\Debug\net5.0\递归.pdb
 C:\Users\linji\Documents\GitHub\desktop-tutorial\VS2019Dome\递归\obj\Debug\net5.0\递归.genruntimeconfig.cache
+C:\Users\linji\Documents\GitHub\desktop-tutorial\VS2019Dome\递归\obj\Debug\net5.0\递归.csproj.AssemblyReference.cache

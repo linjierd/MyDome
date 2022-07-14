@@ -351,14 +351,14 @@
           }
         }
       },
-      "Npgsql/5.0.12": {
+      "Npgsql/5.0.13": {
         "dependencies": {
           "System.Runtime.CompilerServices.Unsafe": "4.6.0"
         },
         "runtime": {
           "lib/net5.0/Npgsql.dll": {
-            "assemblyVersion": "5.0.12.0",
-            "fileVersion": "5.0.12.0"
+            "assemblyVersion": "5.0.13.0",
+            "fileVersion": "5.0.13.0"
           }
         }
       },
@@ -626,7 +626,7 @@
           "Microsoft.Data.Sqlite": "5.0.5",
           "MySql.Data": "8.0.21",
           "Newtonsoft.Json": "10.0.3",
-          "Npgsql": "5.0.12",
+          "Npgsql": "5.0.13",
           "Oracle.ManagedDataAccess.Core": "3.21.1",
           "SqlSugarCore.Dm": "1.0.0",
           "SqlSugarCore.Kdbndp": "1.0.0",
@@ -2217,12 +2217,12 @@
       "path": "newtonsoft.json/10.0.3",
       "hashPath": "newtonsoft.json.10.0.3.nupkg.sha512"
     },
-    "Npgsql/5.0.12": {
+    "Npgsql/5.0.13": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-TJR33fRqx2JZ2vG5cyXwnx86nA5090rQhnfih/uQmbfbkVvVFLfYoTeMcaHjpMBnV4H8B47Gk4pIonSym1d/BA==",
-      "path": "npgsql/5.0.12",
-      "hashPath": "npgsql.5.0.12.nupkg.sha512"
+      "sha512": "sha512-NdnQJk1U9UXnp44j9OT97YeczeF3BdjDgB08zdzDBpJY/l8G5G+jZIXeOp1VZeHQgMmD02BflZg9gMOVmWT+hQ==",
+      "path": "npgsql/5.0.13",
+      "hashPath": "npgsql.5.0.13.nupkg.sha512"
     },
     "Oracle.ManagedDataAccess.Core/3.21.1": {
       "type": "package",

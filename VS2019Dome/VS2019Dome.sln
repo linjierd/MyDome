@@ -15,7 +15,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PostgreSqlDome", "PostgreSq
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetCoreMVC", "雨季鳄龟交易分享平台\NetCoreMVC.csproj", "{11E0C866-AEE1-4892-B06C-74CECDF34078}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMSSendService", "SMSSendService\SMSSendService.csproj", "{0E6387B8-E722-410B-93F7-F55F8B3F1648}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SMSSendService", "SMSSendService\SMSSendService.csproj", "{0E6387B8-E722-410B-93F7-F55F8B3F1648}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SendSMS", "SendSMS\SendSMS.csproj", "{4972C8AD-0CAF-4A83-9359-141DB297D9AE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyBlog", "MyBlog\MyBlog.csproj", "{DC29D2E9-94A0-47BC-9688-7E00FE83FAFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsByFramework4", "WindowsFormsByFramework4\WindowsFormsByFramework4.csproj", "{EB8B0822-FC76-48A5-B144-EE235BD127BE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +57,18 @@ Global
 		{0E6387B8-E722-410B-93F7-F55F8B3F1648}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0E6387B8-E722-410B-93F7-F55F8B3F1648}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0E6387B8-E722-410B-93F7-F55F8B3F1648}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4972C8AD-0CAF-4A83-9359-141DB297D9AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4972C8AD-0CAF-4A83-9359-141DB297D9AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4972C8AD-0CAF-4A83-9359-141DB297D9AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4972C8AD-0CAF-4A83-9359-141DB297D9AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC29D2E9-94A0-47BC-9688-7E00FE83FAFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC29D2E9-94A0-47BC-9688-7E00FE83FAFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC29D2E9-94A0-47BC-9688-7E00FE83FAFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC29D2E9-94A0-47BC-9688-7E00FE83FAFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB8B0822-FC76-48A5-B144-EE235BD127BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB8B0822-FC76-48A5-B144-EE235BD127BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB8B0822-FC76-48A5-B144-EE235BD127BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB8B0822-FC76-48A5-B144-EE235BD127BE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

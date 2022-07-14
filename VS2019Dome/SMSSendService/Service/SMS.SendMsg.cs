@@ -22,10 +22,10 @@ namespace SMSSendService.Service
             weather = result.result;
 
             //以下是拼接天气预报的短信内容
-            var text= $"【{tip}】{weather.city}现在是{weather.realtime.info},{weather.realtime.direct} {weather.realtime.power},空气质量指数{weather.realtime.aqi},温度{weather.realtime.temperature},湿度{weather.realtime.humidity}.\n";
+            var text= $"【{tip}】{weather.city}现在{weather.realtime.info},{weather.realtime.direct} {weather.realtime.power},空气质量指数{weather.realtime.aqi},温度{weather.realtime.temperature},湿度{weather.realtime.humidity}.\n";
             foreach (var future in weather.future)
             {
-                text += $"{DateTime.Parse(future.date).ToShortDateString()}:{future.weather},{future.direct}温度{future.temperature}.\n";
+                text += $"{DateDiff(future.date)}:{future.weather},{future.direct}.温度{future.temperature}.\n";
             }
             
             SendMsg("2683", DateTime.Now.ToString("yyyyMMddHHmmss"), mobile, text);//发送短信的方法
@@ -38,6 +38,22 @@ namespace SMSSendService.Service
             var para = $"action={action}&userid={userid}&timestamp={timestamp}&sign={md5.ToLower()}&mobile={mobile}&content={content}&sendTime={sendTime}&extno={extno}";//配置短信的规则
             var result = apiSample.Client("post", $"v2sms.aspx?{para}");//发送短信
             Log.Information($"Send to {mobile} completed");//记录日志
+        }
+        public static string DateDiff(string para)
+        {
+            try
+             {
+                DateTime date = Convert.ToDateTime(para);
+                var diff = (date - Convert.ToDateTime( DateTime.Now.ToShortDateString())).Days;
+                if (diff == 0) return "今天";
+                if (diff == 1) return "明天";
+                if (diff == 2) return "后天";
+                return date.ToShortDateString();
+            }
+            catch (Exception)
+            {
+                return null;
+            }
         }
     }
 }

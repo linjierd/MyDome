@@ -72,4 +72,37 @@ namespace 雨季鳄龟交易分享平台.Models
         public string yj_SellId { get; set; }
         public string yj_ImgSrc { get; set; }
     }
+    [SugarTable("YuJi_Deceptiver")]
+    public class YuJi_Deceptiver
+    {
+        [SugarColumn(IsPrimaryKey = true)]
+        public string yj_Id { get; set; }
+        public int yj_Uid { get; set; }
+        public string yj_Uip { get; set; }
+        public string yj_Title { get; set; }
+        public string yj_Desc { get; set; }
+        public string yj_WeiXin { get; set; }
+        public string yj_QQ { get; set; }
+        public DateTime yj_Time { get; set; }
+        public bool yj_isDelete { get; set; }
+
+        [SugarColumn(IsIgnore = true)]
+        public bool yj_isDeleteBtn { get; set; }
+
+        [SugarColumn(IsIgnore = true)]
+        public List<YuJi_Deceptiver_IMG> imgs { get; set; }
+        [SugarColumn(IsIgnore = true)]
+        public bool IsDeleteBtn { get; set; }
+        [SugarColumn(IsIgnore = true)]
+        public string yj_srcs { get; set; }
+    }
+    [SugarTable("YuJi_Deceptiver_IMG")]
+    public class YuJi_Deceptiver_IMG
+    {
+        [SugarColumn(IsPrimaryKey = true, IsIdentity = true)]
+        public int yj_Id { get; set; }
+        public string yj_DeceptiverId { get; set; }
+        public string yj_ImgSrc { get; set; }
+    }
+
 }

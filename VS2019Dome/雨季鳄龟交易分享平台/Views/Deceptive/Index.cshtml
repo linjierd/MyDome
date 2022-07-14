@@ -1,0 +1,41 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<a style="float:left" href="/Deceptive/Add">上传骗子信息</a>
+<a style="float:right" href="/Home/Index">返回主页</a>
+<div style="clear:both;width:100%;border-top:1px groove;"></div>
+
+
+@using 雨季鳄龟交易分享平台.Models
+
+@{
+    List<YuJi_Deceptiver> DeceList = ViewBag.DeceList;
+}
+
+
+@foreach (var item in DeceList)
+{
+    <div style="width:100%;height:1px;border:solid 1px #000000;"></div>
+    <div>
+        <h4>@item.yj_Title</h4>
+        @item.yj_Desc
+    </div>
+    <div>骗子QQ:@item.yj_QQ &nbsp; 骗子微信:@item.yj_WeiXin</div>
+    <a href="/Deceptive/DetailInfo/@item.yj_Id">点击查看</a>
+    @if (item.yj_isDeleteBtn)
+    {
+        <a href="/Home/DeleteInfo/@item.yj_Id">删除</a>
+        <br />
+        <i style="color:#087bf8">@item.yj_Uip</i> <i>@item.yj_Time</i>
+    }
+    else
+    {
+        <i>@item.yj_Time</i>
+    }
+}
+
+
+

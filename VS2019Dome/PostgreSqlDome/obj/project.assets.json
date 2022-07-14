@@ -383,7 +383,7 @@
           "lib/netstandard1.3/Newtonsoft.Json.dll": {}
         }
       },
-      "Npgsql/5.0.12": {
+      "Npgsql/5.0.13": {
         "type": "package",
         "dependencies": {
           "System.Runtime.CompilerServices.Unsafe": "4.6.0"
@@ -2868,10 +2868,10 @@
         "tools/install.ps1"
       ]
     },
-    "Npgsql/5.0.12": {
-      "sha512": "TJR33fRqx2JZ2vG5cyXwnx86nA5090rQhnfih/uQmbfbkVvVFLfYoTeMcaHjpMBnV4H8B47Gk4pIonSym1d/BA==",
+    "Npgsql/5.0.13": {
+      "sha512": "NdnQJk1U9UXnp44j9OT97YeczeF3BdjDgB08zdzDBpJY/l8G5G+jZIXeOp1VZeHQgMmD02BflZg9gMOVmWT+hQ==",
       "type": "package",
-      "path": "npgsql/5.0.12",
+      "path": "npgsql/5.0.13",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2883,7 +2883,7 @@
         "lib/netstandard2.0/Npgsql.xml",
         "lib/netstandard2.1/Npgsql.dll",
         "lib/netstandard2.1/Npgsql.xml",
-        "npgsql.5.0.12.nupkg.sha512",
+        "npgsql.5.0.13.nupkg.sha512",
         "npgsql.nuspec",
         "postgresql.png"
       ]
@@ -7459,7 +7459,7 @@
   },
   "projectFileDependencyGroups": {
     "net5.0-windows7.0": [
-      "Npgsql >= 5.0.12",
+      "Npgsql >= 5.0.13",
       "SqlSugarCore >= 5.0.7.5"
     ]
   },
@@ -7511,7 +7511,7 @@
         "dependencies": {
           "Npgsql": {
             "target": "Package",
-            "version": "[5.0.12, )"
+            "version": "[5.0.13, )"
           },
           "SqlSugarCore": {
             "target": "Package",

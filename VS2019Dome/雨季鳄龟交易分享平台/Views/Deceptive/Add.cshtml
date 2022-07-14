@@ -1,0 +1,106 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+
+
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+
+<script>
+    $(document).ready(function () {
+        var appDomain = "http://localhost:44343/";
+        $("#btn_fileUpload").click(function () {
+            var fileUpload = $("#files").get(0);
+            var files = fileUpload.files;
+            var data = new FormData();
+            for (var i = 0; i < files.length; i++) {
+                data.append(files[i].name, files[i]);
+            }
+            $.ajax({
+                type: "POST",
+                url: '/Deceptive/ImgUpload',
+                contentType: false,
+                processData: false,
+                data: data,
+                success: function (data) {
+
+                    if (data.isSuccess == true) {
+
+                        var srcs = $("#yj_srcs").val();
+                        if (srcs != null && srcs != "") {
+                            srcs = srcs + ","
+                        }
+                        srcs = srcs + data.data;
+                        $("#yj_srcs").attr("value", srcs);
+
+                        var count = srcs.split(',').length;
+                        $("#note").text("你已经上传了" + count + "张图片");
+                    }
+                },
+                error: function () {
+                    console.log(JSON.stringify(data));
+                }
+            });
+        });
+        //end click
+    })
+</script>
+
+
+<article>
+    <header>
+        <h2>上传骗子信息</h2>
+
+    </header>
+    <p>
+        <form id="uploadForm" enctype="multipart/form-data" style="border:dotted 1px;">
+            <input type="file" id="files" name="files" placeholder="file" multiple><br><br>
+            <input type="button" id="btn_fileUpload" value="点击上传图片">
+        </form>
+
+
+        <br />
+        <form action="/Deceptive/AddDeceptiver" method="post" style="border:dotted 1px;">
+            <table>
+                <tr>
+                    <td>标题</td>
+                    <td><input type="text" name="yj_Title" value="" /></td>
+                </tr>
+
+                <tr>
+                    <td>描述</td>
+                    <td><input type="text" name="yj_Desc" value=""  /></td>
+                </tr>
+
+                <tr>
+                    <td>骗子微信</td>
+                    <td><input type="text" name="yj_WeiXin" value="" placeholder="微信号,可不填" /></td>
+                </tr>
+                <tr>
+                    <td>骗子QQ</td>
+                    <td><input type="text" name="yj_QQ" value="" placeholder="QQ号,可不填" /></td>
+                </tr>
+                <tr>
+                    <td>证据图片</td>
+                    <td><i id="note"></i><input type="text" id="yj_srcs" name="yj_srcs" value="" readonly="readonly" hidden="hidden" /></td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="提交" /></td>
+                    <td><input type="button" value="返回" onclick="javascript: history.back()" /></td>
+                </tr>
+            </table>
+        </form>
+
+        <div>
+            操作说明: <br />
+            首先点击选择文件, 选择要上传的图片<br />
+            选择好图片后, 点击"点击上传图片"按钮<br />
+            可以多次上传图片,每次上传图片都需要点击"点击上传图片"按钮<br />
+            依次填写标题, 描述,微信,QQ,价格,然后点击提交<br />
+            <b>禁止发保育动物!!!</b>
+        </div>
+    </p>
+
+</article>

@@ -1,0 +1,12 @@
+2022-06-08 08:51:38.862 +08:00 [INF] Starting Scale Handlefile of Windows Services
+2022-06-08 08:51:39.736 +08:00 [INF] Work starting at:"2022-06-08T08:51:39.7126320+08:00",Intermittent time:30 second
+2022-06-08 08:51:39.750 +08:00 [INF] Worker running at: "2022-06-08T08:51:39.7504240+08:00"
+2022-06-08 08:52:30.812 +08:00 [INF] Starting Scale Handlefile of Windows Services
+2022-06-08 08:52:31.716 +08:00 [INF] Work starting at:"2022-06-08T08:52:31.6978118+08:00",Intermittent time:30 second
+2022-06-08 08:52:31.731 +08:00 [INF] Worker running at: "2022-06-08T08:52:31.7310442+08:00"
+2022-06-08 08:53:05.392 +08:00 [INF] Starting Scale Handlefile of Windows Services
+2022-06-08 08:53:06.218 +08:00 [INF] Work starting at:"2022-06-08T08:53:06.1972867+08:00",Intermittent time:30 second
+2022-06-08 08:53:22.191 +08:00 [INF] Worker running at: "2022-06-08T08:53:22.1903019+08:00"
+2022-06-08 08:56:38.458 +08:00 [INF] Send to 18649341891 completed
+2022-06-08 08:57:54.869 +08:00 [INF] Worker running at: "2022-06-08T08:57:54.8679628+08:00"
+2022-06-08 08:59:16.703 +08:00 [INF] Send to 18649341891 completed

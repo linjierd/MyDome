@@ -15,6 +15,8 @@ namespace 雨季鳄龟交易分享平台.Controllers
     {
 
         private readonly IConfiguration _configuration;//添加的配置接口
+        
+
         public RebotController(IConfiguration configuration)
         {
             _configuration = configuration;//构造函数注入
