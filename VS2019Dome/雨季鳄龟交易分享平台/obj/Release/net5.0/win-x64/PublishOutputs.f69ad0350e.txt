@@ -1,6 +1,9 @@
 C:\Users\linji\Documents\GitHub\desktop-tutorial\VS2019Dome\雨季鳄龟交易分享平台\obj\Release\net5.0\win-x64\PubTmp\Out\NetCoreMVC.exe
 C:\Users\linji\Documents\GitHub\desktop-tutorial\VS2019Dome\雨季鳄龟交易分享平台\obj\Release\net5.0\win-x64\PubTmp\Out\wwwroot\css\site.css
 C:\Users\linji\Documents\GitHub\desktop-tutorial\VS2019Dome\雨季鳄龟交易分享平台\obj\Release\net5.0\win-x64\PubTmp\Out\wwwroot\favicon.ico
+C:\Users\linji\Documents\GitHub\desktop-tutorial\VS2019Dome\雨季鳄龟交易分享平台\obj\Release\net5.0\win-x64\PubTmp\Out\wwwroot\Files\DeceptiverPictures\4be338bb-54e8-4e5a-894a-d34a0214a153.jpg
+C:\Users\linji\Documents\GitHub\desktop-tutorial\VS2019Dome\雨季鳄龟交易分享平台\obj\Release\net5.0\win-x64\PubTmp\Out\wwwroot\Files\DeceptiverPictures\76522622-fc62-408c-8399-98e3b7c156eb.jpg
+C:\Users\linji\Documents\GitHub\desktop-tutorial\VS2019Dome\雨季鳄龟交易分享平台\obj\Release\net5.0\win-x64\PubTmp\Out\wwwroot\Files\DeceptiverPictures\af9e166d-f9ab-484f-83c2-6c3f5f9b3736.jpg
 C:\Users\linji\Documents\GitHub\desktop-tutorial\VS2019Dome\雨季鳄龟交易分享平台\obj\Release\net5.0\win-x64\PubTmp\Out\wwwroot\Files\Pictures\1058b9e2-6fc8-476a-8b4b-9ebff87f7aec.jpg
 C:\Users\linji\Documents\GitHub\desktop-tutorial\VS2019Dome\雨季鳄龟交易分享平台\obj\Release\net5.0\win-x64\PubTmp\Out\wwwroot\Files\Pictures\18182a48-b700-481b-9eb1-4936f2058324.jpg
 C:\Users\linji\Documents\GitHub\desktop-tutorial\VS2019Dome\雨季鳄龟交易分享平台\obj\Release\net5.0\win-x64\PubTmp\Out\wwwroot\Files\Pictures\21775ad1-dde0-4e22-ac90-0bfdf8093719.jpg

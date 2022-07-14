@@ -188,5 +188,42 @@ namespace NetCoreMVC.Controllers
 
             return View();
         }
+        public IActionResult DeleteInfo(string id)
+        {
+            var ip = Commond.GetHostAddress();
+
+            var isAdmin = _db.Db.Queryable<Yuji_User>().Single(m => m.yj_IP == ip);
+
+            var sell = _db.Db.Queryable<YuJi_Deceptiver>().Single(m => m.yj_Id == id);
+
+            if (isAdmin.yj_UserName == "Admin" || sell.yj_Uip == ip)
+            {
+                sell.yj_isDelete = true;
+                _db.Db.Updateable(sell).ExecuteCommand();
+                var imgs = _db.Db.Queryable<YuJi_Deceptiver_IMG>().Where(m => m.yj_DeceptiverId == id).ToList();
+
+                //_db.Db.Deleteable<YuJi_Sell>().In(id).ExecuteCommand();
+                _db.Db.Deleteable<YuJi_Deceptiver_IMG>().Where(m => m.yj_DeceptiverId == id).ExecuteCommand();
+
+                foreach (var item in imgs)
+                {
+                    try
+                    {
+
+                        FileInfo file = new FileInfo($"D:\\yuji\\wwwroot\\{item.yj_ImgSrc}");
+                        file.CopyTo($"D:\\yuji\\wwwroot\\backup\\{item.yj_ImgSrc}");
+                        file.Delete();
+                    }
+                    catch (Exception)
+                    {
+
+                    }
+                }
+
+                return Redirect("/Deceptive/index");
+            }
+            return Redirect("/Deceptive/index");
+
+        }
     }
 }
